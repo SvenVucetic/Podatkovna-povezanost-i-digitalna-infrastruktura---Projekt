@@ -96,6 +96,10 @@
     .search:hover{
         background-color:darkgrey;
     }
+    .search:active{
+        background-color:white;
+        color:darkgrey;
+    }
     .random{
         border:none;
         padding:2%;
@@ -105,6 +109,13 @@
         border-radius:5px;
         font-family:helvetica;
         float:right;
+    }
+    .random:hover{
+        background-color:darkgrey;
+    }
+    .random:active{
+        background-color:white;
+        color:darkgrey;
     }
     .dropdown {
         position: relative;
