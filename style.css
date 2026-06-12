@@ -1,0 +1,169 @@
+    .content{
+        max-width:800px;
+        vertical-align:middle;
+        margin:auto;
+        align-content:middle;
+        background-color:#EEE3CD;
+        height:600px;
+        padding:1%;
+        border-radius:20px;
+    }
+    .naslov{
+        display:grid;
+        grid-template-columns: auto auto;
+        width:20%;
+        vertical-align:middle;
+        margin:auto;
+        padding:1%;
+    }
+    img{
+        max-width:60%;
+        height:auto;
+    }
+    header{
+        width:100%;
+        background-color:#502111;
+        margin:0;
+    }
+    header h1{
+        color:white;
+        font-family:verdana;
+    }
+    form{
+        margin:0%;
+    }
+    body{
+        margin:auto;
+        background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.vectorstock.com%2Fi%2F1000x1000%2F94%2F06%2Fseamless-pattern-with-handwritten-text-lorem-ipsum-vector-33969406.jpg&f=1&nofb=1&ipt=f4dd6de453732216afacb5916f033a6edd6fe5bb92f75fe8c2bfda0ee5b8ce3e");
+        background-attachment: fixed;
+        background-size:auto 120%;
+        background-position:center;
+        
+        overflow:hidden;
+    }
+    b{
+        font-family:helvetica;
+    }
+    p{
+        font-family:cambria;
+        font-size:20px;
+        border: 1px solid black;
+        border-radius:8px;
+        padding: 5px;
+    }
+    .ch{
+        border:none;
+        margin-left:5%;
+        font-size:20px;
+        font-family:helvetica;
+        border-radius:5px;
+        padding-right:1%;
+        padding-left:1%;
+        padding-top:2%;
+        padding-bottom:2%;
+        width:12%;
+    }
+    .vs{
+        border:none;
+        font-size:20px;
+        font-family:helvetica;
+        border-radius:5px;
+        padding-right:1%;
+        padding-left:1%;
+        padding-top:2%;
+        padding-bottom:2%;
+        width:12%;
+    }
+    .dropbtn{
+        border:none;
+        padding:40%;
+        font-size:20px;
+        background-color:#f9f9f9;
+        color:grey;
+        border-radius:5px;
+        font-family:helvetica;
+    }
+    .search{
+        border:none;
+        padding:2%;
+        font-size:20px;
+        background-color:black;
+        color:white;
+        border-radius:5px;
+        font-family:helvetica;
+        margin-left:2%;
+    }
+    .search:hover{
+        background-color:darkgrey;
+    }
+    .random{
+        border:none;
+        padding:2%;
+        font-size:20px;
+        background-color:black;
+        color:white;
+        border-radius:5px;
+        font-family:helvetica;
+        float:right;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        left: 180%;
+        top: 0%;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .nested-dropdown {
+        position: relative;
+        font-family:helvetica;
+    }
+    .nested-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        left: 100%;
+        top: 0;
+        z-index: 1;
+        overflow:hidden;
+        overflow-y:scroll;
+        max-height:1000%;
+    }
+    .nested-dropdown:hover
+        .nested-dropdown-content {
+        display: block;
+        font-family:helvetica;
+    }
+
+    @media(max-width:1000px){
+        .naslov{
+            width:100%;
+        }
+        img{
+            max-width:30%;
+        }
+        .ch{
+            margin-left:7%;
+        }
+        .search{
+            margin-left:0%;
+        }
+    }
